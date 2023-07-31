@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSA il Calicanto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="contatti">
+	<header>
+		<div class="logo">
+			<a href="index.html">
+				<img src="assets/logo.png" alt="Logo">
+			</a>
+		</div>
+		<button class="menu-toggle" aria-label="Menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</header>
+	<nav>
+		<ul>
+      <li><a href="index.html">HOMEPAGE</a></li>
+
+			<li><a href="azienda.html">L’AZIENDA AGRICOLA</a></li>
+			<li><a href="progetto.html">PROGETTO CSA</a></li>
+			<li><a href="aderire.html">PERCHE’ADERIRE</a></li>
+      <li><a href="partecipare.html">COME PARTECIPARE</a></li>
+      <li><a href="galleria.html">GALLERIA</a></li>
+      <li><a href="contatti.html">CONTATTI</a></li>
+      
+
+      
+		</ul>
+	</nav>
+
+	<main>
+
+		<p>Per qualsiasi informazione o richiesta scrivici a fattoriailcalicanto@gmail.com <br>
+			 Puoi anche contattarci telefonicamente chiamando Francesca al numero <a href="tel:+393335740198">3335740198</a> o Riccardo al <a href="tel:+393281857394">3281857394</a> <br><br>
+			...oppure vieni a trovarci <a href="https://goo.gl/maps/BhmniX32SpsxHnrT6">qui</a> a Campocreoce di Mirano in Via Canaceo 58
+      </p>
+	</main>
+  <script>
+		const menuToggle = document.querySelector('.menu-toggle');
+		const nav = document.querySelector('nav');
+		
+		menuToggle.addEventListener('click', () => {
+			nav.classList.toggle('active');
+		});
+	</script>
+</body>
+</html>

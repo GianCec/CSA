@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSA il Calicanto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="azienda">
+	<header>
+		<div class="logo">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="Logo">
+            </a>
+		</div>
+		<button class="menu-toggle" aria-label="Menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</header>
+	<nav>
+		<ul>
+      <li><a href="index.html">HOMEPAGE</a></li>
+
+			<li><a href="azienda.html">L’AZIENDA AGRICOLA</a></li>
+			<li><a href="progetto.html">PROGETTO CSA</a></li>
+			<li><a href="aderire.html">PERCHE’ADERIRE</a></li>
+      <li><a href="partecipare.html">COME PARTECIPARE</a></li>
+      <li><a href="galleria.html">GALLERIA</a></li>
+      <li><a href="contatti.html">CONTATTI</a></li>
+      
+
+      
+		</ul>
+	</nav>
+
+	<main>
+
+		<p>Siamo Francesca e Riccardo, due giovani contadini con la passione per l’agricoltura naturale e la
+            biodiversità.<br>Fin da giovanissimi abbiamo abbracciato uno stile di vita semplice e incentrato sul lavoro della terra.
+            Dopo varie esperienze, sia in Italia che all’estero, abbiamo avviato la nostra piccola azienda agricola in un
+            vecchio terreno di famiglia nelle campagne veneziane.<br>L’estensione del terreno è poco meno di un ettaro e in passato era destinato a vigne, orti e alberi da frutta
+            per uso familiare. Dopo oltre un decennio di abbandono abbiamo deciso di coltivarlo a ortaggi,
+            ispirandoci ai principi dell’<strong class="yellow">agricoltura rigenerativa</strong> e ai metodi del <strong class="yellow">market garden</strong>.<br> Coltiviamo su aiuole permanenti riducendo al minimo l’uso di attrezzature meccaniche e favorendo il
+            lavoro manuale. Cerchiamo di preservare la <strong class="yellow">fertilità del suolo</strong> attraverso corrette pratiche agricole e
+            rifiutiamo l’utilizzo di prodotti chimici di sintesi. Tuteliamo la <strong class="yellow">biodiversità</strong> cercando di coltivare il
+            maggior numero possibile di tipologie di ortaggi, dando spazio anche a quelle varietà dimenticate o,
+            meglio, scartate dalle logiche produttive moderne, andando a riscoprire gusti ormai persi.
+            Abbiamo quindi a cuore la salvaguardia delle <strong class="yellow">sementi antiche</strong>, delle varietà orticole locali e della loro
+            riproduzione anno dopo anno: questo ci permette di avere ortaggi unici per aspetto e proprietà
+            nutrizionali, che adattandosi al nostro terreno diventano sempre più resilienti.
+      </p>
+	</main>
+  <script>
+		const menuToggle = document.querySelector('.menu-toggle');
+		const nav = document.querySelector('nav');
+		
+		menuToggle.addEventListener('click', () => {
+			nav.classList.toggle('active');
+		});
+	</script>
+</body>
+</html>

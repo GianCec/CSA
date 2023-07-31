@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSA il Calicanto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="partecipare">
+	<header>
+		<div class="logo">
+			<a href="index.html">
+				<img src="assets/logo.png" alt="Logo">
+			</a>
+		</div>
+		<button class="menu-toggle" aria-label="Menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</header>
+	<nav>
+		<ul>
+      <li><a href="index.html">HOMEPAGE</a></li>
+
+			<li><a href="azienda.html">L’AZIENDA AGRICOLA</a></li>
+			<li><a href="progetto.html">PROGETTO CSA</a></li>
+			<li><a href="aderire.html">PERCHE’ADERIRE</a></li>
+      <li><a href="partecipare.html">COME PARTECIPARE</a></li>
+      <li><a href="galleria.html">GALLERIA</a></li>
+      <li><a href="contatti.html">CONTATTI</a></li>
+      
+
+      
+		</ul>
+	</nav>
+
+	<main>
+
+		<p>Ogni CSA mira a garantire un’adeguata proporzione tra il numero di fruitori e di coltivatori, sulla base
+            della superficie coltivabile disponibile. Ne consegue che il <strong class="yellow">numero di quote è limitato</strong>.
+            In base alla superficie del nostro terreno possiamo garantire un’adeguata produzione per un massimo di
+            55/60 quote. Se vuoi entrare a far parte della CSA scrivici per avere un primo contatto. Dovrai partecipare
+            a inizio anno, solitamente a marzo, all’assemblea in cui si svolge l’asta delle quote. Una volta aggiudicata
+            la tua quota, firmerai il regolamento di adesione e pagherai la tua parte di ortaggi, in una o più rate, e
+            inizierai a ritirare le tue verdure!
+
+      </p>
+	</main>
+  <script>
+		const menuToggle = document.querySelector('.menu-toggle');
+		const nav = document.querySelector('nav');
+		
+		menuToggle.addEventListener('click', () => {
+			nav.classList.toggle('active');
+		});
+	</script>
+</body>
+</html>

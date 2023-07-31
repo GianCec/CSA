@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSA il Calicanto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="aderire">
+	<header>
+		<div class="logo">
+            <a href="index.html">
+			<img src="assets/logo.png" alt="Logo">
+        </a>
+
+		</div>
+		<button class="menu-toggle" aria-label="Menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</header>
+	<nav>
+		<ul>
+      <li><a href="index.html">HOMEPAGE</a></li>
+
+			<li><a href="azienda.html">L’AZIENDA AGRICOLA</a></li>
+			<li><a href="progetto.html">PROGETTO CSA</a></li>
+			<li><a href="aderire.html">PERCHE’ADERIRE</a></li>
+      <li><a href="partecipare.html">COME PARTECIPARE</a></li>
+      <li><a href="galleria.html">GALLERIA</a></li>
+      <li><a href="contatti.html">CONTATTI</a></li>
+      
+
+      
+		</ul>
+	</nav>
+
+	<main>
+
+		<p>Entrare a far parte di una CSA comporta molteplici vantaggi, sia per chi produce sia per chi consuma:<br> <br>- Il contadino non deve inventarsi quanto cibo produrre e poi sperare di venderlo poiché tutto ciò che è
+            coltivato viene distribuito ai partecipanti. In questo modo <strong class="yellow">riducono al minimo gli sprechi</strong> e i rischi di
+            investimento economico. Inoltre, il contadino può dedicare più tempo alla produzione agricola senza
+            disperdere energie nella commercializzazione dei suoi prodotti.<br>
+       - Viene incoraggiata l’acquisizione di responsabilità da parte del consumatore, che diventa <strong class="yellow">partecipante
+		attivo</strong> del processo produttivo: accorciando la filiera, la comunità ha un controllo diretto sul cibo che
+            mangia e su come viene prodotto, partecipa alle decisioni relative alle colture, sostiene economia locale,
+            condizioni di lavoro eque e biodiversità.<br>
+            -I partecipanti non sono più consumatori passivi ma diventano <strong class="yellow">co-produttori</strong> attraverso anche la
+            <strong class="yellow">condivisione del rischio di impresa</strong>, partecipando cioè ai costi di progetto indipendentemente dai risultati
+            finali. Il contadino non è più da solo ad affrontare eventuali difficoltà e imprevisti climatici.<br>
+            Allo stesso modo, i partecipanti godranno interamente dei <strong class="yellow">benefici della produzione agricola</strong>: eventuali
+            surplus vengono ripartiti fra tutti.<br>
+            - Durante l’anno sono previsti incontri organizzativi, conviviali, attività sociali e culturali: momenti
+            arricchenti che consentono di migliorare la qualità delle relazioni e di crescere come comunità.
+
+      </p>
+	</main>
+  <script>
+		const menuToggle = document.querySelector('.menu-toggle');
+		const nav = document.querySelector('nav');
+		
+		menuToggle.addEventListener('click', () => {
+			nav.classList.toggle('active');
+		});
+	</script>
+</body>
+</html>

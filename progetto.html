@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSA il Calicanto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="progetto">
+	<header>
+		<div class="logo">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="Logo">
+            </a>
+		</div>
+		<button class="menu-toggle" aria-label="Menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</header>
+	<nav>
+		<ul>
+      <li><a href="index.html">HOMEPAGE</a></li>
+
+			<li><a href="azienda.html">L’AZIENDA AGRICOLA</a></li>
+			<li><a href="progetto.html">PROGETTO CSA</a></li>
+			<li><a href="aderire.html">PERCHE’ADERIRE</a></li>
+      <li><a href="partecipare.html">COME PARTECIPARE</a></li>
+      <li><a href="galleria.html">GALLERIA</a></li>
+      <li><a href="contatti.html">CONTATTI</a></li>
+      
+
+      
+		</ul>
+	</nav>
+
+	<main>
+ <h1 class="yellow">Che cos’è una CSA?</h1>
+		<p> Una Comunità a Supporto dell’Agricoltura è una forma di partenariato diretto tra un gruppo di persone e
+            uno o più contadini.<br> All’inizio di ogni annata agricola ci si riunisce per elaborare un’attenta programmazione delle coltivazioni
+            che comprenda una diversità di prodotti di qualità scelti in base alle esigenze della comunità e alle
+            possibilità produttive legate alla realtà agricola locale.<br> I costi di produzione vengono condivisi in un bilancio preventivo, il cui totale – diviso per il numero di
+            fruitori – determina l’importo medio che ogni partecipante dovrebbe offrire per coprire le spese.
+            Attraverso un’<strong class="yellow">asta solidale</strong> ogni partecipante potrà versare di più o di meno rispetto all’importo stimato,
+            in base alle proprie disponibilità: in questo modo – <strong class="yellow"> un meccanismo di compensazione</strong> - a tutti
+            sarà garantito l’accesso ad un cibo fresco, locale e sano.<br>Il <strong class="yellow">prefinanziamento della produzione</strong> orticola non corrisponde all’acquisto di un determinato quantitativo
+            di ortaggi ma rappresenta il sostegno dei costi per la loro produzione, permettendo di superare il concetto
+            di prezzo al chilo: quel che si produce viene diviso, eliminando gli sprechi e rendendo tutti coresponsabili e partecipi al processo, nelle buone annate e in quelle meno buone. </p>
+
+            <h1  class="yellow">Le quote di ortaggi</h1>
+
+            <p> 
+            Il <strong class="yellow">raccolto viene diviso in parti uguali</strong>, dette quote, e distribuito settimanalmente direttamente dal campo
+            al punto di ritiro.<br>
+            Le distribuzioni partono indicativamente da inizio maggio e continuano fino a metà marzo, con una pausa
+            durante le feste natalizie. Ogni partecipante può scegliere quante quote di ortaggi prefinanziare: mezza
+            quota, una o più quote a seconda del proprio consumo e del numero dei componenti familiari. In media
+            una quota di ortaggi è composta da circa 6/7 kg di verdure di 8/10 tipologie diverse: il peso e le varietà
+            dipendono dal periodo e seguono sempre la stagionalità senza forzature.<br>
+            Partecipare alla CSA permette di assaggiare nuovi ortaggi, riscoprire il valore del rispetto per la
+            stagionalità e anche superare i classici canoni estetici che finora ci sono stati imposti: le verdure con
+            qualche imperfezione non sono scarto, ma cibo da valorizzare.  </p>
+            <h1  class="yellow">Punti di distribuzione</h1>
+            <p>  La distribuzione delle quote avviene in maniera autogestita direttamente <strong class="yellow">dal campo al punto di ritiro</strong>,
+            senza l’utilizzo di alcun tipo di imballaggio. Le consegne si organizzano assieme a inizio anno definendo
+            giorni, orari e punti di distribuzione.<br>
+            Nel punto di distribuzione <strong class="yellow">non ci sono cassette preconfezionate</strong>: ognuno ritira consapevolmente la propria
+            parte di ortaggi sulla base di una lista aggiornata di volta in volta a seconda della disponibilità settimanale
+            di ogni prodotto.<br>
+            In questo modo la distribuzione diventa anche <strong class="yellow">occasione di socialità</strong>: incontrando noi contadini e gli altri
+            partecipanti si ha modo di chiacchierare, scambiarsi ricette, informazioni sull’andamento dei campi e –
+            perché no – anche verdure. Incontrarsi settimanalmente migliora la qualità delle relazioni perché si crea
+            un rapporto di fiducia stretto, a differenza di quanto può accadere in un freddo e anonimo supermercato!<br><br>
+            I nostri punti di distribuzione sono a Padova e a Mirano, consegniamo le verdure nel tardo pomeriggio di
+            mercoledì e venerdì.
+      </p>
+      <p><a href="assets/ritiro_verdure_vademecum.pdf" download>Vademecum ritiro verdure</a><br><br>
+            <a href="assets/ritiro_verdure_vademecum.pdf" download>Regolamento</a></p> 
+    
+	</main>
+
+
+  <script>
+		const menuToggle = document.querySelector('.menu-toggle');
+		const nav = document.querySelector('nav');
+		
+		menuToggle.addEventListener('click', () => {
+			nav.classList.toggle('active');
+		});
+	</script>
+</body>
+</html>

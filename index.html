@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSA il Calicanto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="index">
+	<header>
+		<div class="logo">
+      <a href="index.html">
+        <img src="assets/logo.png" alt="Logo">
+          </a>		</div>
+		<button class="menu-toggle" aria-label="Menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</header>
+	<nav>
+		<ul>
+      <li><a href="index.html">HOMEPAGE</a></li>
+
+			<li><a href="azienda.html">L’AZIENDA AGRICOLA</a></li>
+			<li><a href="progetto.html">PROGETTO CSA</a></li>
+			<li><a href="aderire.html">PERCHE’ADERIRE</a></li>
+      <li><a href="partecipare.html">COME PARTECIPARE</a></li>
+      <li><a href="galleria.html">GALLERIA</a></li>
+      <li><a href="contatti.html">CONTATTI</a></li>
+      
+
+      
+		</ul>
+	</nav>
+
+	<main>
+
+		<p>L’agricoltura ha sempre avuto forti risvolti sulla società, per questo abbiamo improntato il nostro lavoro
+      su tre punti cardine.<br>Il primo è l’<strong class="yellow">agroecologia</strong>, perché è nostro dovere preservare la fertilità dei terreni e curare la terra per
+      lasciare un suolo sano a chi verrà dopo di noi. <br>
+     Il secondo punto è la <strong class="yellow">sovranità alimentare</strong>, che solo l’agricoltura contadina su piccola scala può garantire.
+      Produrre per la comunità locale significa legare lo sviluppo della propria realtà a un bisogno reale,
+        primario, che prescinde dalle logiche di mercato.<br>
+        Inoltre l’agricoltura contadina che pratichiamo predilige l’<strong class="yellow">economia di relazione</strong> di relazione con forme di solidarietà
+        concreta tra consumatori e produttori.<br><br>
+         È per questi motivi che abbiamo fatto nostro il modello di CSA (Comunità a Supporto dell’Agricoltura).
+
+      </p>
+	</main>
+  <script>
+		const menuToggle = document.querySelector('.menu-toggle');
+		const nav = document.querySelector('nav');
+		
+		menuToggle.addEventListener('click', () => {
+			nav.classList.toggle('active');
+		});
+	</script>
+</body>
+</html>

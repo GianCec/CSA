@@ -266,6 +266,10 @@ h2 {
    
      width: 35vh;
    }
+   nav ul li {
+    margin-bottom: 20px;
+    font-size: 8px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -290,4 +294,8 @@ h2 {
    
      width: 35vh;
    }
+   nav ul li {
+    margin-bottom: 20px;
+    font-size: 8px;
+  }
 }

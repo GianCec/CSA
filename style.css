@@ -11,31 +11,32 @@ body {
 }
 #prev-button,
 #next-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 0;
   width: 0;
   height: 0;
   border-style: solid;
+  border-width: 10px;
   background-color: transparent;
-  transition: transform 0.4s ease; /* Aggiungi una transizione di 0.2 secondi sull'animazione del pulsante */
+  transition: transform 0.4s ease;
+
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente il contenuto */
+  align-items: center; /* Allinea i contenuti al centro verticalmente */
+
+  margin-top: 10px;
+}
+#next-button {
+  border-color: transparent transparent transparent #000;
+  margin-left: 10px;
 
 }
 
 #prev-button {
-  left: 15vw;
-  border-width: 10px 15px 10px 0;
   border-color: transparent #000 transparent transparent;
-  transform-origin: 50% 50%; /* Imposta il punto di trasformazione al centro del triangolo sinistro */
+  margin-right: 10px;
 
-}
-
-#next-button {
-  right: 15vw;
-  border-width: 10px 0 10px 15px;
-  border-color: transparent transparent transparent #000;
-  transform-origin: 50% 50%; /* Imposta il punto di trasformazione al centro del triangolo destro */
 
 }
 
@@ -52,7 +53,6 @@ body {
   margin: 0 auto; /* Centra l'immagine orizzontalmente */
   display: block; /* Imposta l'elemento come blocco per abilitare il margine automatico */
   margin-bottom: 10px;
-  margin-top: 0;
 
 }
 body.index{
@@ -70,6 +70,9 @@ body.partecipare{
 }
 body.progetto{
 	background-image: url(assets/progettoM.webp);
+  background-repeat: repeat; /* Do not repeat the image */
+  background-position: top;
+
 }
 body.aderire{
 	background-image: url(assets/aderire.webp);
@@ -137,7 +140,7 @@ nav {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 10px;
+  padding:10px;
   display: none;
 
 }
@@ -230,7 +233,7 @@ h2 {
   color: #fff;
   font-size: 3em;
 
-  text-align: center;
+  text-align: left;
   font-weight: bold;
 }
 
@@ -292,10 +295,10 @@ h2 {
     position: absolute;
     top: 20px;
    
-     width: 35vh;
+     width: 20vh;
    }
    nav ul li {
     margin-bottom: 20px;
-    font-size: 8px;
+    font-size: 11px;
   }
 }
